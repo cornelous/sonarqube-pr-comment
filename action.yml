@@ -24,7 +24,7 @@ inputs:
     required: true
   github_api_base_url:
     description: "Base URL for GitHub API"
-    required: false
+    required: true
 outputs:
   quality_check:
     description: "Quality check status from SonarQube"
